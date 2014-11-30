@@ -1,0 +1,33 @@
+{
+  "name": "Localizer",
+  "description": "A super simple express middleware for localization. To use it, you need to have locale installed.",
+  "version": "v1.0.0",
+  "keywords": [
+    "localization",
+    "localizer",
+    "coding",
+    "lizards"
+  ],
+  "maintainers": [
+    {
+      "name": "Imanuel Ulbricht",
+      "email": "i.ulbricht@codinglizards.de",
+      "web": "http://codinglizards.de/"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/CodingLizards/localizer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodingLizards/localizer.git"
+  },
+  "licenses": [
+    {
+      "name": "MIT Licence",
+      "url": "https://github.com/CodingLizards/localizer/blob/master/licence"
+    }
+  ],
+  "readme": "https://github.com/CodingLizards/localizer/blob/master/README.md",
+  "homepage": "https://github.com/CodingLizards/localizer"
+}
