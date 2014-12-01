@@ -1,7 +1,7 @@
 {
   "name": "codinglizards-localizer",
   "description": "A super simple express middleware for localization. To use it, you need to have locale installed.",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "keywords": [
     "localization",
     "localizer",
@@ -29,5 +29,6 @@
     }
   ],
   "readme": "./README.md",
-  "homepage": "https://github.com/CodingLizards/localizer"
+  "homepage": "https://github.com/CodingLizards/localizer",
+  "main": "./localizer.js"
 }
