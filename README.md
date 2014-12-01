@@ -7,8 +7,8 @@ Localizer reads all the files in a folder called languages in your current direc
 
 It exports two methods:
 
-### `initialize`
-This method parses all the files in `__dirname/languages` and reads them all in.
+### `initialize(options)`
+This method reads all the files in `options.path` and parses them all.
 
 ### `localize`
 This method is the middleware, which adds the next method `req.localize` to the request object.
@@ -24,4 +24,4 @@ The way how it tries to find the value is by the following order,
 
 ## TODO
 - [ ] Tests
-- [ ] Configuration of languages path
+- [x] Configuration of languages path
